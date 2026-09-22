@@ -2,4 +2,4 @@
 
 The line below is the one two branches change.
 
-line: original
+line: changed by a
