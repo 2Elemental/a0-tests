@@ -1,2 +1,2 @@
 hello world
-second line
+goodbye world
