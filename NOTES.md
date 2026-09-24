@@ -1,3 +1,4 @@
+walk 4, scenario 7
 walk 7
 hello world
 goodbye world
