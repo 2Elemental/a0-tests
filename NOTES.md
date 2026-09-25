@@ -8,3 +8,4 @@ walk 4, eerste regel
 walk 4, tweede regel
 walk 4, een andere laatste regel
 walk 5, eerste regel
+walk 5, tweede regel
