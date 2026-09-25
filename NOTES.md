@@ -1,3 +1,4 @@
+walk 5, derde regel
 walk 7
 hello world
 goodbye world
