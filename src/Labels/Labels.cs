@@ -4,11 +4,11 @@ namespace A0Tests.Labels
     public static class Labels
     {
         /// <summary>Returns the label with leading and trailing white space removed.</summary>
-        /// <param name="value">The label, or null.</param>
-        /// <returns>The trimmed label, or an empty string when <paramref name="value"/> is null.</returns>
-        public static string NormalizeLabel(string? value)
+        /// <param name="value">The label.</param>
+        /// <returns>The trimmed label.</returns>
+        public static string NormalizeLabel(string value)
         {
-            return value is null ? string.Empty : value.Trim();
+            return value.Trim();
         }
     }
 }
