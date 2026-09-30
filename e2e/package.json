@@ -1,0 +1,7 @@
+{
+  "name": "a0-playwright-seed",
+  "private": true,
+  "devDependencies": {
+    "@playwright/test": "1.63.0"
+  }
+}

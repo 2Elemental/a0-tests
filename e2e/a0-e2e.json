@@ -1,0 +1,23 @@
+{
+  "application": "frontend",
+  "services": [
+    {
+      "name": "store",
+      "entrypoint": "store.cjs",
+      "port": 4122,
+      "readyPath": "/ready"
+    },
+    {
+      "name": "backend",
+      "entrypoint": "backend.cjs",
+      "port": 4121,
+      "readyPath": "/ready"
+    },
+    {
+      "name": "frontend",
+      "entrypoint": "frontend.cjs",
+      "port": 4120,
+      "readyPath": "/ready"
+    }
+  ]
+}
