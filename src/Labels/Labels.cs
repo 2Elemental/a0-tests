@@ -5,10 +5,15 @@ namespace A0Tests.Labels
     {
         /// <summary>Returns the label with leading and trailing white space removed.</summary>
         /// <param name="value">The label.</param>
-        /// <returns>The trimmed label.</returns>
-        public static string NormalizeLabel(string value)
+        /// <returns>The trimmed label, or the empty string if <paramref name="value"/> is null.</returns>
+        public static string NormalizeLabel(string? value)
         {
-            return value.Trim();
+            return value is null ? string.Empty : value.Trim();
+        }
+
+        public static string ShoutLabel(string value)
+        {
+            return NormalizeLabel(value).ToUpperInvariant();
         }
     }
 }
