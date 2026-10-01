@@ -11,7 +11,10 @@ namespace A0Tests.Labels
             return value is null ? string.Empty : value.Trim();
         }
 
-        public static string ShoutLabel(string value)
+        /// <summary>Returns the normalized label in upper case.</summary>
+        /// <param name="value">The label.</param>
+        /// <returns>The trimmed label in upper case, or the empty string if <paramref name="value"/> is null.</returns>
+        public static string ShoutLabel(string? value)
         {
             return NormalizeLabel(value).ToUpperInvariant();
         }
